@@ -4,8 +4,9 @@ chrome.runtime.onInstalled.addListener(function() {
     fetch(url)
     .then((response) => response.json()) //assuming file contains json
     .then((json) => {
-        chrome.storage.sync.set({entries: json.entries}, function() {
-            console.log('store data.', json.entries);
+        chrome.storage.sync.set({data: json}, function() {
+            //alert(JSON.stringify(json.entries));
+            console.log('store data.', json);
         });
     });
   });

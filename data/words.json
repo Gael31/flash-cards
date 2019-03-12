@@ -1,8 +1,20 @@
 {
     "entries": [
         {
-            "japanese": "便利 (benri)",
-            "english": "convenient"
+            "japanese": "なくす",
+            "english": "to lose"
+        },
+        {
+            "japanese": "見つかる - mitsukaru",
+            "english": "to be found/discovered"
+        },
+        {
+            "japanese": "惚れる - horeru",
+            "english": "to fall in love"
+        },
+        {
+            "japanese": "出て着る - detekiru",
+            "english": "to get out/ to show up"
         }
     ]
 }
